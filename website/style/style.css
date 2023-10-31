@@ -1,15 +1,15 @@
 .div1{   
     display: flex;
     justify-content: center;
-    background-color: #e7d8d8;
-    width:250px;
+    background-color: #fff;
+    width:225px;
 }
 .div2{
 
     width:100%;
     display: flex;
     align-items: center;
-    background-color: #746c6c;
+    background-color: #fff;
     justify-content: space-between;
     box-sizing: border-box;
 }
@@ -17,18 +17,21 @@
 
     display: flex;
     justify-content: center;
-    background-color: #d6c9c9;
-    width:250px;
+    background-color:#fff;
+    width:225px;
 }
 .flipkart_logo_div_container{
 display: grid;
 }
 .search_bar_prop{
-height:40px;
-width:800px;
-
+    height:40px;
+    border-radius:10px;
+    border: 1px;
+    background-color: rgba(240,245,255,255);
 }
 .search_bar_prop::placeholder{
 
     padding-left: 20px;
+
+
 }
