@@ -1,0 +1,22 @@
+.div1{   
+    display: flex;
+    justify-content: center;
+    background-color: #e7d8d8;
+    width:150px;
+}
+.div2{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    background-color: #746c6c;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+.div3{
+
+    display: flex;
+    justify-content: center;
+    background-color: #d6c9c9;
+    width:150px;
+}
