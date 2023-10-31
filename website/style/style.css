@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: #e7d8d8;
-    width:150px;
+    width:250px;
 }
 .div2{
 
@@ -18,5 +18,17 @@
     display: flex;
     justify-content: center;
     background-color: #d6c9c9;
-    width:150px;
+    width:250px;
+}
+.flipkart_logo_div_container{
+display: grid;
+}
+.search_bar_prop{
+height:40px;
+width:800px;
+
+}
+.search_bar_prop::placeholder{
+
+    padding-left: 20px;
 }
