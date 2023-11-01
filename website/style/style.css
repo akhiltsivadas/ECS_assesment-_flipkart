@@ -44,7 +44,6 @@ display: grid;
 }
 .list_top{
 display: flex;
-flex-direction:row  ;
 justify-content: center;
 align-items: center;
 
@@ -74,5 +73,12 @@ width:150px ;
 .inner_card{
 align-items: center;
 justify-content: center;
+
+}
+
+.list_top{
+    background-color:rgba(241,242,244,255);
+    height:150px;
+    margin-top:10px;
 
 }
