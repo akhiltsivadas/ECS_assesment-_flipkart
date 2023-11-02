@@ -24,24 +24,27 @@
 display: grid;
 }
 .search_bar_prop{
+    position: relative;
     height:40px;
     border-radius:10px;
     border: 1px;
     background-color: rgba(240,245,255,255);
-}   
+
+}
+.glass{
+    position: absolute;
+    height: 35px;
+    top: 2px;
+    left:40px;
+    cursor: pointer;
+}
 .search_bar_prop::placeholder{
 
     padding-left: 35px;
     font-size:17px;
 
 }
-.glass{
-    position: relative;
-    height: 35px;
-    top: 2px;
-    left:40px;
-    cursor: pointer;
-}
+
 .list_top{
 display: flex;
 justify-content: center;
@@ -93,9 +96,46 @@ justify-content: center;
 
 }
 .carosal_container{
+    position: relative;
     width: 1600px;
     background-color:#fff;
     height:250px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
 
+.carosal_buttons{
+    position: absolute;
+    left: 0;
+    top: 85px;
+    z-index:2;
+    width: 40px;
+
+    }
+    .carosal_buttons_right{
+    position: absolute;
+    right: 0;
+    top: 85px;
+    z-index:2;
+    width: 40px;
+
+    }
+
+.carosal_image{
+position: absolute;
+justify-content: center;
+justify-items: center;
+z-index: 1;
 
 }
+
+.button_carosal{
+    border: none;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 2px;
+}
+
