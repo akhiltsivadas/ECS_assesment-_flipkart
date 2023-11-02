@@ -159,9 +159,19 @@ transition:transform 1s; /* for smooth transition*/
 /* FOR HIDING EXTRA PARTS WHILE CAROSAL SLIDING */
 .blank_part{
 background-color: rgba(241,242,244,255);
-height: 300px;
+height: 280px;
 width:160px;
-margin: 0px;
+margin-top: 10px;
 z-index: 20;
+}
+
+.best_of_electronics
+{
+position: relative;
+display: flex;
+margin-top: 40px;
+background-color:rgba(241,242,244,255);
+
+
 }
 
