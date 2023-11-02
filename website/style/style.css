@@ -24,7 +24,6 @@
 display: grid;
 }
 .search_bar_prop{
-    position: relative;
     height:40px;
     border-radius:10px;
     border: 1px;
@@ -32,12 +31,25 @@ display: grid;
 
 }
 .glass{
-    position: absolute;
     height: 35px;
     top: 2px;
     left:40px;
     cursor: pointer;
 }
+.search_bar_prop_container{
+    position: relative;
+    z-index: 1;
+    display: flex;
+   
+}
+.glass_holder{
+    position: absolute;
+    top:5px;
+    left: 5px;
+    z-index: 2;
+}
+
+
 .search_bar_prop::placeholder{
 
     padding-left: 35px;
