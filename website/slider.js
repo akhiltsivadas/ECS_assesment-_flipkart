@@ -63,5 +63,19 @@ function handleNext(){
 
     }
 
+}
+function render()
+{
+    if(start>end)
+    {
+        handleNext();
+    }
+    else
+    {
+        start=12.5;
+    }
 
 }
+
+
+setInterval(render,3000);

@@ -1,4 +1,7 @@
-.div1{   
+body{
+    overflow-x: hidden;
+}
+.div1{
     display: flex;
     justify-content: center;
     background-color: #fff;
@@ -141,7 +144,8 @@ justify-content: center;
 justify-items: center;
 z-index: 1;
 display: flex;
-overflow: hidden;
+transition:transform 1s; /* for smooth transition*/
+
 }
 
 .pre-bt,.nxt-bt{
@@ -151,5 +155,13 @@ overflow: hidden;
     background-color: white;
     border: none;
     border-radius: 2px;
+}
+/* FOR HIDING EXTRA PARTS WHILE CAROSAL SLIDING */
+.blank_part{
+background-color: rgba(241,242,244,255);
+height: 300px;
+width:160px;
+margin: 0px;
+z-index: 20;
 }
 
