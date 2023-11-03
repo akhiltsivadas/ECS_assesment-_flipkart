@@ -8,7 +8,7 @@ margin-left:160px ;
 margin-right: 160px;
 margin-top: 30px;
 background-color:white;
-height: 350px;
+height:fit-content;
 }
 .headingAndArrow{
     display:flex;    
@@ -84,5 +84,14 @@ margin-left: 20px;
     background-color:white;
     margin-top: 2px;
     margin-bottom: 10px;
+}
+
+.advertisement{
+display: flex;
+align-items: center;
+background-color: blueviolet;
+height: 400px;
+width: 200px;
+
 }
 
