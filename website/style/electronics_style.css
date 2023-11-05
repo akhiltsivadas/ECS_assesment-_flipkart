@@ -5,6 +5,7 @@ display: flex;
 flex-direction: column;
 align-items: center;
 margin-top: 30px;
+margin-left: 45px;
 background-color:white;
 height:fit-content;
 }
@@ -84,12 +85,15 @@ margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.advertisement{
-display: flex;
+.adverisement{
+display:flex;
+justify-content: center;
 align-items: center;
-background-color: blueviolet;
-height: 400px;
-width: 200px;
+margin-top: 20px;
+height:400px;
+width: 100%;
+z-index: 11;
+background-color:rgba(241,242,244,255);
 
 }
 

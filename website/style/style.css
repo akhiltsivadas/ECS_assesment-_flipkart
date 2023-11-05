@@ -1,7 +1,8 @@
 body{
     overflow-x: hidden;
     margin: 0px;
-    padding: 5px;
+    padding-left: 0px;
+    padding-right: 10px;
 }
 
 .nav_bar{
@@ -25,14 +26,7 @@ body{
 .flipkart_logo_div_container{
 display: grid;
 }
-.search_bar_prop{ 
-    height:40px;
-  width:750px ;
-    border-radius:10px;
-    border: 1px;
-    background-color: rgba(240,245,255,255);
 
-}
 .glass{
     height: 35px;
     top: 2px;
@@ -46,6 +40,15 @@ display: grid;
     width: fit-content;
    
 }
+.search_bar_prop{ 
+    height:40px;
+    width:750px ;
+    padding: 0 40px;
+    border-radius:10px;
+    border: none;
+    background-color: rgba(240,245,255,255);
+
+}
 .glass_holder{
     position: absolute;
     top:5px;
@@ -55,8 +58,7 @@ display: grid;
 
 
 .search_bar_prop::placeholder{
-
-    padding-left: 35px;
+    
     font-size:17px;
 
 }
