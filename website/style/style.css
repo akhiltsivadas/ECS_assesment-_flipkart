@@ -1,33 +1,33 @@
 body{
     overflow-x: hidden;
+    margin: 0px;
+    padding: 5px;
 }
-.div1{
+
+.nav_bar{
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    width:225px;
+    align-items: center;
+    height: fit-content
+
+
 }
+
 .div2{
 
     width:100%;
+    height: 60px;
     display: flex;
-    align-items: center;
+    align-items: center;    
+    justify-content:space-around;    
     background-color: #fff;
-    justify-content: space-between;
-    box-sizing: border-box;
-}
-.div3{
-
-    display: flex;
-    justify-content: center;
-    background-color:#fff;
-    width:225px;
 }
 .flipkart_logo_div_container{
 display: grid;
 }
-.search_bar_prop{
+.search_bar_prop{ 
     height:40px;
+  width:750px ;
     border-radius:10px;
     border: 1px;
     background-color: rgba(240,245,255,255);
@@ -43,6 +43,7 @@ display: grid;
     position: relative;
     z-index: 1;
     display: flex;
+    width: fit-content;
    
 }
 .glass_holder{
@@ -59,27 +60,11 @@ display: grid;
     font-size:17px;
 
 }
-
-.list_top{
-display: flex;
-justify-content: center;
-align-items: center;
-
-}
-.list_div_blank{
-width:150px ;
-
-}
-
-.item_list{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.item_list{    
+    display: flex;  
+    justify-content:center;
     align-items: center;
-    align-content: space-around;
-
-
+   
 }
 .card_item{
     padding-top:20px ;
