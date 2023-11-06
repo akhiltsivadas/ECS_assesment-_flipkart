@@ -10,6 +10,8 @@ let endE=-12.5
 function slideforward()
 {
 document.querySelector(".productList").style.transform=`translateX(${-12.5}%)`;
+document.querySelector(".nxt-bt-e").style.display=`none`;
+document.querySelector(".pre-bt-e").style.display=`inline`;
 }
 
 prevbtn.addEventListener("click",slidebackward);
@@ -17,6 +19,9 @@ prevbtn.addEventListener("click",slidebackward);
 function slidebackward(){
 
     document.querySelector(".productList").style.transform=`translateX(${0}%)`;
+    document.querySelector(".pre-bt-e").style.display=`none`;
+    document.querySelector(".nxt-bt-e").style.display=`inline`;
+
 }
 
 
