@@ -1,6 +1,10 @@
 body{
     overflow-x: hidden;
 }
+p{
+    margin: 0px;
+    padding: 0px;
+}
 .div1{
     display: flex;
     justify-content: center;
@@ -30,6 +34,7 @@ display: grid;
     height:40px;
     border-radius:10px;
     border: 1px;
+    padding: 0 40px;
     background-color: rgba(240,245,255,255);
 
 }
@@ -43,7 +48,7 @@ display: grid;
     position: relative;
     z-index: 1;
     display: flex;
-   
+
 }
 .glass_holder{
     position: absolute;
@@ -55,7 +60,6 @@ display: grid;
 
 .search_bar_prop::placeholder{
 
-    padding-left: 35px;
     font-size:17px;
 
 }
@@ -67,7 +71,7 @@ align-items: center;
 
 }
 .list_div_blank{
-width:150px ;
+width:150px;
 
 }
 
@@ -164,5 +168,7 @@ width:160px;
 margin-top: 10px;
 z-index: 20;
 }
+
+
 
 

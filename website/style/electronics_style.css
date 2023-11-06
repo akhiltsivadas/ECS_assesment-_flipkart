@@ -2,13 +2,15 @@
 {
 position: relative;
 display: flex;
+width: 1350px;
 flex-direction: column;
 align-items: center;
 margin-left:160px ;
-margin-right: 160px;
+margin-right: 0px;
 margin-top: 30px;
 background-color:white;
 height:fit-content;
+z-index: 10;
 }
 .headingAndArrow{
     display:flex;    
@@ -18,8 +20,10 @@ height:fit-content;
     height: 80px;
     background-color:white;
 }
-.productList{
+.productList{  
     display: flex;
+    padding-left: 5px;
+
 }
 .heading_electronics{
 font-size:20px;
@@ -86,12 +90,14 @@ margin-left: 20px;
     margin-bottom: 10px;
 }
 
-.advertisement{
+.adverstisement{
 display: flex;
+justify-content: center;
 align-items: center;
-background-color: blueviolet;
-height: 400px;
-width: 200px;
-
+height: 375px;
+width: 400px;
+background-color: rgba(241,242,244,255);
+margin-top: 30px;
+margin-right: 160px;
+z-index: 11;
 }
-
