@@ -1,0 +1,31 @@
+.recentMenu{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    height:fit-content;
+    background-color: white;
+    width:700px;
+    border-radius: 10px;
+    top: 40px;    
+    box-shadow: 2px 2px 5px rgb(227, 230, 231); 
+    z-index:30;
+}
+.recentSearches{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.recentSearches:hover{
+    cursor: pointer;
+    background-color:rgba(240,245,255,255);
+}
+
+.recentSearchMenu{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.recentSearchMenu:hover{
+    cursor: pointer;
+    background-color: rgba(240,245,255,255);
+}

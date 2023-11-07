@@ -21,5 +21,5 @@ function slidebackwardBeauty(){
     document.querySelector(".productListB").style.transform=`translateX(${0}%)`;
     document.querySelector(".pre-bt-B").style.display=`none`;
     document.querySelector(".nxt-bt-B").style.display=`inline`;
-    
+
 }

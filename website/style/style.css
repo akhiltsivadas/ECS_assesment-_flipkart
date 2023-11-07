@@ -46,7 +46,7 @@ display: grid;
 }
 .search_bar_prop_container{
     position: relative;
-    z-index: 1;
+    z-index: 50;
     display: flex;
 
 }
@@ -105,14 +105,13 @@ justify-content: center;
 
 }
 .carosal_block{
-    display: flex;
+    display:flex;
     flex-direction:row ;
     justify-content: center;
     align-items: center;
     background-color:rgba(241,242,244,255);
     height:250px;
     margin-top:15px ;
-
 }
 .carosal_container{
     position: relative;
@@ -121,7 +120,7 @@ justify-content: center;
     height:250px;
     display: flex;
     justify-content: center;
-    justify-items: center;
+    justify-items: center; 
 }
 
 .carosal_buttons{

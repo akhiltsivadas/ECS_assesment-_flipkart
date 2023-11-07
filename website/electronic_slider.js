@@ -18,7 +18,7 @@ prevbtn.addEventListener("click",slidebackward);
 
 function slidebackward(){
 
-    document.querySelector(".productList").style.transform=`translateX(${0}%)`;
+    document.querySelector(".productList").style.transform=`translateX(${7.5}%)`;
     document.querySelector(".pre-bt-e").style.display=`none`;
     document.querySelector(".nxt-bt-e").style.display=`inline`;
 
