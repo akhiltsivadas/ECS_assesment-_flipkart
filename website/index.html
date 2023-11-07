@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="style/beauty_food.css">
     <link rel="stylesheet" href="style/footer.css">
     <link rel="stylesheet" href="style/recentmenu.css">
+    <link rel="stylesheet" href="style/signInDropDownMenu.css">
 
 </head>
 <body  style="background-color:rgba(241,242,244,255)">
 
     <!-- NAV BAR BUILD AND ANIMATION -->
 
-    <div class="container-fluid" style="display: flex;height: 70px;" >
+    <div class="nav_bar_container" style="display: flex;height: 70px;" >
 
         <div class="div1">
 
@@ -46,50 +47,50 @@
                                 <img   src="icons/fi-xtluhx-magnifying-glass-thin.png" alt=""  class="glass">
                             </div>
 
-                            <!-- recent menu -->
-                        <div class="recentMenu">
-                            <div class="recentSearches"  >
-                                <img style="height: 30px;align-items: center;" src="images/recentSearch.webp" alt="">
-                                <p class="recentsearchitems">Recent Search</p>
-                            </div>
-                            <div style="font-size: 17;font-weight: bold;color: grey;margin-left: 10px;margin-top: 20px;margin-bottom: 20px;">
-                                Discover More
-                            </div>
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p style="margin-left: 5px;">Mobiles</p>
-                            </div>
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p style="margin-left: 5px;">Shoes</p>
-                            </div>
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p style="margin-left: 5px;">T-Shirt</p>
-                            </div>
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p style="margin-left: 5px;">Laptops</p>
-                            </div>
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p>Watches</p>
-                            </div>
+                                        <!-- recent menu -->
+                                    <div class="recentMenu">
+                                        <div class="recentSearches"  >
+                                            <img style="height: 30px;align-items: center;" src="images/recentSearch.webp" alt="">
+                                            <p class="recentsearchitems">Recent Search</p>
+                                        </div>
+                                        <div style="font-size: 17;font-weight: bold;color: grey;margin-left: 10px;margin-top: 20px;margin-bottom: 20px;">
+                                            Discover More
+                                        </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p style="margin-left: 5px;">Mobiles</p>
+                                        </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p style="margin-left: 5px;">Shoes</p>
+                                        </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p style="margin-left: 5px;">T-Shirt</p>
+                                        </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p style="margin-left: 5px;">Laptops</p>
+                                        </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p>Watches</p>
+                                        </div>
 
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p> TV</p>
-                            </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p> TV</p>
+                                        </div>
 
-                            <div class="recentSearchMenu">
-                                <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
-                                <p>Sarees</p>
-                            </div>
+                                        <div class="recentSearchMenu">
+                                            <img style="height: 30px;" class="recenticons" src="images/searchglass.webp" alt="">
+                                            <p>Sarees</p>
+                                        </div>
 
                         </div>
 
 
-                        </div>                        
+                        </div>
 
 
                         <div >
@@ -109,16 +110,51 @@
                         </div>
 
 
-                        <div class="sign-in-container" style="display: flex;">
+                        <div class="sign-in-container" style="display: flex;position: relative;align-items: center;">
                            <div>
-                            <img src="images/profile-815786.svg" alt="">
+                            <i class="fa fa-user user_icon" aria-hidden="true"></i>
                            </div>
-                           <div style="margin-left: 10px;">
+                           <div class="signIn" style="margin-left: 10px;">
                             Sign in
                            </div>
-                           <div style="margin-left: 10px;">
-                            <img src="images/upArrow.svg" alt="">
+                           <div  class="uparrow" style="margin-left: 10px;">
+                            <i class="fa fa-angle-down downArrow" style="font-size:17px"></i>
                            </div>
+                           <!-- Drop down menu for sign in -->
+                            <div class="dropDoWnMenu">
+
+                                <div class="top_signIn">
+                                   <div style="margin-left: 10px;font-size: 17px;">New Customer ?</div>
+                                   <div style="margin-right: 10px;color: blue;font-weight: bold;font-size:17px;">Sign Up</div>
+                                </div>
+                                <div class="signInList">
+                                    <img style="height:20px;" src="images/profile-815786.svg" alt="">
+                                    <p class="signInP" >My Profile</p>
+                                </div>
+                                <div class="signInList">
+                                    <img style="height:20px;"  src="images/fkplus-4ff29a.svg" alt="">
+                                   <p  class="signInP">Flipkart Plus Zone</p>
+                                </div>
+                                <div class="signInList">
+                                    <img style="height:20px;" src="images/orders-bfe8c4.svg" alt="">
+                                    <p  class="signInP">Orders</p>
+                                </div>
+                                <div class="signInList">
+                                    <img style="height:20px;" src="images/downloadApp-2ea657.svg" alt="">
+                                    <p  class="signInP">Wish List</p>
+                                </div>
+                                <div class="signInList">
+                                 <img style="height:20px;" src="images/rewards-fbd212.svg" alt="">
+                                 <p  class="signInP">Rewards</p>
+                                </div>
+                                <div class="signInList">
+                                  <img style="height:20px;" src="images/giftCard-bd87e1.svg" alt="">
+                                  <P  class="signInP">Gift Cards</P>
+                                </div>
+
+                           </div>
+
+
                         </div>
 
 
@@ -653,5 +689,7 @@
 <script src="slider.js"></script>
 <script src="electronic_slider.js"></script>
 <script src="beauty_slider.js"></script>
+<script src="recentMenu.js"></script>
+<script src="signIn.js"></script>
 
 </html>

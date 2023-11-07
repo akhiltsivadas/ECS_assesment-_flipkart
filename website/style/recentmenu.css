@@ -1,5 +1,5 @@
 .recentMenu{
-    display: flex;
+    display:none;
     flex-direction: column;
     position:absolute;
     height:fit-content;

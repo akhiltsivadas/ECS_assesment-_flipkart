@@ -1,0 +1,71 @@
+.dropDoWnMenu{
+    position: absolute;
+    display:none;
+    flex-direction: column;
+    top: 36px;
+    left: -5px;
+    z-index: 40;
+    height:fit-content;
+    width:280px ;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 2px 5px rgb(197, 192, 192);
+}
+
+.sign-in-container{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.sign-in-container:hover{
+    cursor: pointer;
+    background-color: rgb(62, 62, 238); 
+    
+    }
+
+
+.sign-in-container:hover .downArrow
+{
+    transform: rotate(180deg);
+    transition:transform .5s;
+}
+
+.top_signIn{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgb(240, 237, 237);
+    
+}
+.signInList:hover{
+    background-color: rgb(236, 236, 236);
+}
+
+.signInList{
+    display:flex;    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.sign-in-container:hover .signIn {
+    color: white;
+}
+.sign-in-container:hover  .user_icon {
+    color: white;
+}
+.sign-in-container:hover .uparrow{
+    color: white;
+}
+.signInP{
+    margin-left: 10PX;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
